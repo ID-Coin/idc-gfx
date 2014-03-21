@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="568" width="568" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title>ID Coin Logo</title>
+ <metadata id="idcoin">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>ID Coin Logo</dc:title>
+    <dc:publisher>ID Coin</dc:publisher>
+    <dc:date>2014-03-21</dc:date>
+    <dc:creator>
+     <rdf:Bag>
+      <rdf:li>John Kenney</rdf:li>
+     </rdf:Bag>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <defs id="gradients">
+  <linearGradient id="coinShineG1">
+   <stop id="stop1" stop-color="#fff" stop-opacity="0" offset="0"/>
+   <stop id="stop2" stop-color="#fff" stop-opacity=".8" offset=".5"/>
+   <stop id="stop3" stop-color="#ccc" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="shadG" x1="658.5" y1="811.68" x2="122.88" y2="278.1" gradientUnits="userSpaceOnUse">
+   <stop id="stop4" offset="0"/>
+   <stop id="stop5" stop-color="#235" stop-opacity=".37" offset="1"/>
+  </linearGradient>
+  <linearGradient id="coinShineG" x1="158.73" y1="340.61" x2="660.94" y2="767.79" xlink:href="#coinShineG1" gradientUnits="userSpaceOnUse"/>
+  <linearGradient id="coinRimShineG" x1="521.5" y1="665.58" x2="145.84" y2="336.27" xlink:href="#coinShineG1" gradientUnits="userSpaceOnUse"/>
+  <linearGradient id="iShine">
+   <stop id="stop6" stop-color="#d90" offset="0"/>
+   <stop id="stop7" stop-color="#fb2" offset="1"/>
+  </linearGradient>
+  <radialGradient id="headShine" xlink:href="#iShine" cx="193.88" cy="41.527" gradientTransform="scale(1.0842 .92232)" r="147.59" gradientUnits="userSpaceOnUse"/>
+  <radialGradient id="bodyShine" xlink:href="#iShine" cx="181.22" cy="215.07" gradientTransform="scale(1.0203 .98009)" r="355.45" gradientUnits="userSpaceOnUse"/>
+ </defs>
+ <g id="coin" stroke-width="1.77" stroke-opacity=".008" stroke-linejoin="bevel" transform="translate(-90.239 -243.39)">
+  <path id="rim" stroke="#ccc" fill="#ea1" d="m372.05 246.18c-154.56 0-280 125.44-280 280-0.003 154.56 125.44 280 280 280s280-125.44 280-280-125.44-280-280-280zm0 34.19c135.69 0 245.84 110.12 245.84 245.81 0 135.7-110.15 245.81-245.84 245.81-135.7 0-245.82-110.11-245.82-245.81 0-135.69 110.12-245.81 245.82-245.81z"/>
+  <path id="out" stroke="#fd5" stroke-width="1.5554" fill="#ea1" d="m372.03 280.35c-135.69 0-245.81 110.15-245.81 245.85 0 135.69 110.12 245.81 245.81 245.81 135.7 0 245.85-110.12 245.85-245.81 0-135.7-110.15-245.85-245.85-245.85zm0 85.47c88.53 0 160.41 71.85 160.41 160.38s-71.88 160.37-160.41 160.37-160.37-71.84-160.37-160.37 71.84-160.38 160.37-160.38z"/>
+  <path id="ins" stroke="#aaa" fill="#ccc" transform="matrix(.57278 0 0 .57278 188.76 319.45)" d="m600 360.93a280 280 0 1 1 -560 0 280 280 0 1 1 560 0z"/>
+  <g id="light" fill-opacity=".5">
+   <path id="high" fill="#eec" d="m371.13 244.27c-154.56 0-280 125.44-280 280-0.005 93.36 45.76 176.06 116.06 226.94-65.75-51.25-108.06-131.17-108.06-220.94-0.005-154.56 125.44-280 280-280 61.2 0 117.84 19.7 163.93 53.07-47.46-37-107.14-59.07-171.93-59.07zm151.78 86.66c57.26 45.02 94.06 114.91 94.06 193.34 0 135.7-110.15 245.82-245.84 245.82-53.4 0-102.84-17.06-143.16-46 41.7 32.57 94.18 52 151.16 52 135.69 0 245.84-110.12 245.84-245.82 0-82.02-40.26-154.68-102.06-199.34z"/>
+   <path id="shad" fill="url(#shadG)" d="m377.61 810.79c154.56 0 280-125.44 280-280 0-93.35-45.76-176.05-116.06-226.93 65.75 51.25 108.06 131.17 108.06 220.93 0 154.56-125.44 280-280 280-61.21 0-117.84-19.69-163.93-53.06 47.46 37 107.14 59.06 171.93 59.06zm-151.78-86.65c-57.26-45.02-94.06-114.91-94.06-193.35 0-135.69 110.15-245.81 245.84-245.81 53.39 0 102.84 17.05 143.16 46-41.7-32.57-94.18-52-151.16-52-135.69 0-245.84 110.12-245.84 245.81 0 82.03 40.26 154.69 102.06 199.35z"/>
+  </g>
+  <g id="shine" opacity=".92">
+   <path id="coinShine" fill="url(#coinShineG)" transform="matrix(1.0767 0 0 .97468 -12.646 23.133)" d="m585.49 516.98a225.87 250.81 0 1 1 -451.75 0 225.87 250.81 0 1 1 451.75 0z"/>
+   <path id="coinRimShine" fill="url(#coinRimShineG)" d="m372.05 246.18c-154.56 0-280 125.44-280 280-0.003 154.56 125.44 280 280 280s280-125.44 280-280-125.44-280-280-280zm0 34.19c135.69 0 245.84 110.12 245.84 245.81 0 135.7-110.15 245.81-245.84 245.81-135.7 0-245.82-110.11-245.82-245.81 0-135.69 110.12-245.81 245.82-245.81z"/>
+  </g>
+ </g>
+ <g id="i" transform="matrix(.494 0 0 .563 152 140)">
+  <g id="outline" stroke-linejoin="bevel" stroke-opacity=".1" stroke="#333" stroke-width="3">
+   <path id="head" fill="url(#headShine)" transform="matrix(1.3967,0,0,1.521,-80.238,-8.768)" d="m249.01 11.985c-103.61 0.909-99.97 123.6 1.81 124.5 89.97-0.9 96.33-126.31-1.81-124.5z"/>
+   <path id="body" fill="url(#bodyShine)" transform="matrix(1 0 0 .8129 -1.1189 93.848)" d="m88.152 214.64c11.814-26.35 123.6-72.7 175.4-69.06 50.89-2.73 156.31 33.62 177.21 68.15-61.8-9.99-69.07 267.19-69.07 267.19-85.42-89.97-113.6-102.7-218.11 2.72-3.63-20.9-2.72-277.18-65.428-269z"/>
+  </g>
+  <g id="highlights" fill="#fff" fill-opacity=".2">
+   <path id="headHigh" d="m259.7 18.98c-6.36-10.906-116.19 20.87-83.04 100.74 18.18 8.18 93.04-72.573 83.04-100.75z"/>
+   <path id="bodyHigh" transform="matrix(1 0 0 .8129 -1.1189 93.848)" d="m217.2 165.57c-0.909-15.45-89.061 16.358-113.6 42.713 25.446 15.449 49.983 86.334 52.709 226.29 26.355-118.14 68.159-180.85 60.889-269z"/>
+  </g>
+ </g>
+</svg>
